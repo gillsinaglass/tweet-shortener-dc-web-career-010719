@@ -28,3 +28,12 @@ def bulk_tweet_shortener(tweet)
    puts word_substituter(tweets)
   end
 end
+
+def selective_tweet_shortener(tweet)
+  print_variable = 140
+  if tweet.length > print_variable
+    
+
+
+
+
