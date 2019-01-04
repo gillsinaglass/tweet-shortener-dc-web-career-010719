@@ -32,7 +32,12 @@ end
 def selective_tweet_shortener(tweet)
   print_variable = 140
   if tweet.length > print_variable
-    
+    tweet.each do |tweets|
+     puts word_substituter(tweets)
+   end
+ else
+  puts tweet
+end
 
 
 
