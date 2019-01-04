@@ -11,6 +11,5 @@ def dictionary()
 end
 
 def word_substituter(tweet)
-  tweet.split(",").map do
-  tweet.each do |word|
-    if word = 
+  tweet.split(",").map do |word|
+    if 
