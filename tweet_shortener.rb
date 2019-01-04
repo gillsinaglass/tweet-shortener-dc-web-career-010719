@@ -31,5 +31,5 @@ def bulk_tweet_shortener(tweet)
       word
     end
   end.join(" ")
-  puts bulk_tweet_shortener(tweets)
+  puts bulk_tweet_shortener(tweet)
 end
