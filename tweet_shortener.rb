@@ -12,4 +12,4 @@ end
 
 def word_substituter(tweet)
   tweet.split(",").map do |word|
-    if 
+    if dictionary.keys.include?(word)
